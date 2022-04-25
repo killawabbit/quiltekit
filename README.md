@@ -15,7 +15,7 @@ align-content: space-between;">
   <a href="https://github.com/killawabbit/sveltekit-pug-styl#readme" target="_blank">
 </span>
 
-> Modified [Official SvelteKit Skeleton Template](https://github.com/sveltejs/template) for writing code in Pug.js for markup, CoffeeScript for script and Stylus for style
+> Modified [Official SvelteKit Skeleton Template](https://github.com/sveltejs/template) for writing code in Pug.js for markup and Stylus for style also with TailwindCSS
 
 ## Features
 Apart from the Official SvelteKit Template Starter this repo has the following features:
@@ -88,7 +88,7 @@ Do take a look at *main.js* and *App.svelte* files inside src/ to get a glimse o
 ## Install
 
 ```sh
-npx degit killawabbit/sveltekit-pug-styl sveltekit-is-awesome
+npx degit killawabbit/quiltekit sveltekit-is-awesome
 cd sveltekit-is-awesome
 npm install
 ```
