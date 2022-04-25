@@ -1,0 +1,174 @@
+{
+	"Svelte file with Vanilla Javascript, Pug and Stylus": {
+		"scope": "svelte",
+		"prefix": "s-js-pug-styl",
+		"body": [
+			"<script>",
+			"\t$1",
+			"</script>\n",
+			"<style lang=\"stylus\">",
+			"\t$2",
+			"</style>\n",
+			"<template lang=\"pug\">",
+			"\t$3",
+			"</template>"
+		],
+		"description": "Template for using Vanilla Javascript in the Script element, Pug for the (HTML) Template element and Stylus for (CSS) Style element"
+	},
+	"Svelte file with Typecript, Pug and Stylus": {
+		"scope": "svelte",
+		"prefix": "s-ts-pug-styl",
+		"body": [
+			"<script lang=\"typescript\">",
+			"\t$1",
+			"</script>\n",
+			"<style lang=\"stylus\">",
+			"\t$2",
+			"</style>\n",
+			"<template lang=\"pug\">",
+			"\t$3",
+			"</template>"
+		],
+		"description": "Template for using Typescript in the Script element, Pug for the (HTML) Template element and Stylus for (CSS) Style element"
+	},
+	"Svelte template for Pug": {
+		"scope": "svelte",
+		"prefix": "s-pug",
+		"body": [
+			"<template lang=\"pug\">",
+			"\t$1",
+			"</template>"
+		],
+		"description": "Template for a template section with Pug.js"
+	},
+	"Svelte section for Stylus": {
+		"scope": "svelte",
+		"prefix": "s-styl",
+		"body": [
+			"<style lang=\"stylus\">",
+			"\t$1",
+			"</style>"
+		],
+		"description": "Template for a style section with Stylus"
+	},
+	"Svelte IF block in Pug": {
+		"scope": "svelte",
+		"prefix": "s-pug-if",
+		"body": [
+			"+if ('$1')",
+			"\t$2"
+		],
+		"description": "Template for a Svelte IF block in Pug"
+	},
+	"Svelte ELSE block in Pug": {
+		"scope": "svelte",
+		"prefix": "s-pug-else",
+		"body": [
+			"\t+else ('$1')",
+			"\t\t$2"
+		],
+		"description": "Template for a Svelte IF block in Pug"
+	},
+	"Svelte IF/ELSE statement in Pug": {
+		"scope": "svelte",
+		"prefix": "s-pug-if-else",
+		"body": [
+			"+if ('$1')",
+			"\t$2",
+			"\t+else",
+			"\t\t$3"
+		],
+		"description": "Template for a Svelte IF/ELSE block in Pug"
+	},
+	"Svelte else block in Pug": {
+		"scope": "svelte",
+		"prefix": "s-pug-else-if",
+		"body": [
+			"\t+else if ('$1')",
+			"\t\t$2"
+		],
+		"description": "Template for a Svelte IF block in Pug"
+	},
+	"Svelte IF/ELSE-IF statement in Pug": {
+		"scope": "svelte",
+		"prefix": "s-pug-if-else-if",
+		"body": [
+			"+if ('$1')",
+			"\t$2",
+			"\t+else if",
+			"\t\t$3"
+		],
+		"description": "Template for a Svelte IF/ELSE-IF block in Pug"
+	},
+	"Svelte FOR statement in Pug": {
+		"scope": "svelte",
+		"prefix": "s-pug-for",
+		"body": [
+			"+for ('$1')",
+			"\t$2",
+		],
+		"description": "Template for a Svelte FOR block in Pug"
+	},
+	"Svelte EACH statement in Pug": {
+		"scope": "svelte",
+		"prefix": "s-pug-each",
+		"body": [
+			"+each ('$1 as $2')",
+			"\t$3"
+		],
+		"description": "Template for a Svelte EACH block in Pug"
+	},
+	"Svelte KEY statement in Pug": {
+		"scope": "svelte",
+		"prefix": "s-pug-key",
+		"body": [
+			"+key ('$1')",
+			"\t$2"
+		],
+		"description": "Template for a Svelte KEY block in Pug"
+	},
+	"Svelte AWAIT statement in Pug": {
+		"scope": "svelte",
+		"prefix": "s-pug-await",
+		"body": [
+			"+await ('$1')",
+			"\t$2"
+		],
+		"description": "Template for a Svelte AWAIT block in Pug"
+	},
+	"Svelte HTML statement in Pug": {
+		"scope": "svelte",
+		"prefix": "s-pug-html",
+		"body": [
+			"+html ('$1')",
+			"\t$2"
+		],
+		"description": "Template for a Svelte HTML statement in Pug"
+	},
+	"Svelte CATCH statement in Pug": {
+		"scope": "svelte",
+		"prefix": "s-pug-catch",
+		"body": [
+			"+catch ('$1')",
+			"\t$2"
+		],
+		"description": "Template for a Svelte CATCH statement in Pug"
+	},
+	"Svelte THEN statement in Pug": {
+		"scope": "svelte",
+		"prefix": "s-pug-html",
+		"body": [
+			"+html ('$1')",
+		],
+		"description": "Template for a Svelte HTML statement in Pug"
+	},
+	"Svelte DEBUG block in Pug": {
+		"scope": "svelte",
+		"prefix": "s-pug-debug",
+		"body": [
+			"+debug ('$1')",
+			"\t$2"
+		],
+		"description": "Template for a Svelte DEBUG block in Pug"
+	},
+}

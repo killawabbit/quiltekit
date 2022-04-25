@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 180 180">
+          <g>
+            <path fill="#b694cf" stroke="none" stroke-linecap="square" d="M-8.2-11.7l17.7 24h-9.7l-24-15Z"
+              transform="translate(134.3,128.6) translate(-9.5,-8.6)" style="
+                animation: 2s linear both a0_t, 2s linear both a0_s,
+                  2s linear both a0_f, 2s linear both a0_d;
+              " />
+            <rect x="22.3" y="22.4" width="115" height="114" fill="#b694cf" />
+          </g>
+          <g>
+            <rect x="26.3" y="26.4" width="106" height="106" fill="#fff" />
+          </g>
+          <g transform="translate(0,-138.2)">
+            <rect x="26.5" y="164.7" height="26.5" width="26.5" fill="purple" />
+            <rect x="26.5" y="217.6" width="26.5" height="26.5" fill="purple" />
+            <rect x="52.9" y="191.2" height="26.5" width="26.5" fill="purple" />
+            <rect x="52.9" y="244.1" width="26.5" height="26.5" fill="purple" />
+            <rect x="79.4" y="164.7" height="26.5" width="26.5" fill="purple" />
+            <rect x="79.4" y="217.6" width="26.5" height="26.5" fill="purple" />
+            <rect x="105.8" y="191.2" width="26.5" height="26.5" fill="purple" />
+            <rect x="105.8" y="244.1" height="26.5" width="26.5" fill="purple" />
+          </g>
+</svg>
